@@ -45,7 +45,6 @@
   <project path="external/bash" name="SlimRoms/android_external_bash" remote="github" revision="jb4.3" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" remote="github" revision="jb4.3" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="jb4.3" />
@@ -173,7 +172,6 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="jb4.3" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="jb4.3" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -194,7 +192,6 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="SlimRoms/android_external_webkit" remote="github" revision="jb4.3" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="SlimRoms/android_external_wpa_supplicant_6" remote="github" revision="jb4.3" />
@@ -259,7 +256,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="jb4.3" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="jb4.3" />
   <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="github" revision="jb4.3" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="jb4.3" />
@@ -273,7 +269,6 @@
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="jb4.3" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="jb4.3" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="jb4.3" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
@@ -359,7 +354,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="SlimRoms/android_system_bluetooth" remote="github" revision="jb4.3" />
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="jb4.3" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="jb4.3" />
   <project path="system/media" name="platform/system/media" />
@@ -411,5 +405,20 @@
 
     <!--CyanogenMod DSPManager -->
    <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.2" />
+
+   <!-- SLIMSABER -->
+   <!-- SaberMod toolchain -->
+  <project path="SaberMod/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" remote="github" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
+  <project path="SaberMod/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" remote="github" revision="master" />
+
+  <!-- CyanogenMod -->
+  <project name="CyanogenMod/android_external_skia" path="external/skia" remote="github" revision="cm-10.2"/>
+  <project name="CyanogenMod/android_external_webkit" path="external/webkit" remote="github" revision="cm-10.2"/>
+  <project name="CyanogenMod/android_external_kissfft" path="external/kissfft" remote="github" revision="cm-10.2"/>
+  <project name="CyanogenMod/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_packages_apps_BluetoothExt" path="packages/apps/BluetoothExt" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_system_bluetooth" path="system/bluetooth" remote="github" revision="cm-10.2"/>
 
 </manifest>

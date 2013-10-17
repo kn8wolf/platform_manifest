@@ -388,7 +388,11 @@
    <!-- SLIMSABER -->
    <!-- SaberMod toolchain -->
   <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
+
+  <!-- Drop this for the time being as we are using Linaro to compile the kernel
   <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="master" />
+  -->
+  <project name="SlimSaber/toolchain_linaro-4.7" path="prebuilts/gcc/linux-x86/arm/linaro-4.7" remote="github" revision="jb4.3"/>
 
   <!-- CyanogenMod -->
   <project name="SlimSaber/android_external_skia" path="external/skia" remote="github" revision="jb4.3"/>

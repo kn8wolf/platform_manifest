@@ -1,2 +1,10 @@
-$ repo init -u git://github.com/SlimRoms/platform_manifest.git -b jb4.3
-$ repo sync
+Getting SlimSaber source
+------------------------
+$ repo init -u https://github.com/SlimSaber/platform_manifest.git -b jb4.3 -b jb4.3
+$ repo sync -j5
+
+Building
+--------
+$ . build/envsetup.sh
+$ lunch slim_i9100-userdebug
+$ make -j5 bacon

@@ -391,17 +391,16 @@
   <!--CyanogenMod system qcom -->
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="github" revision="cm-10.2" />
 
-   <!-- SLIMSABER -->
-   <project path="scripts" name="SlimSaber/scripts" remote="github" revision="jb4.3" >
-      <copyfile src="scripts/build.sh" dest="build.sh" />
-   </project>
 
-   <!-- SaberMod toolchain -->
+  <!-- ************** SLIMSABER ************** -->
+
+  <!-- Scripts -->
+  <project path="scripts" name="SlimSaber/scripts" remote="github" revision="jb4.3" >
+     <copyfile src="build.sh" dest="build.sh" />
+  </project>
+
+  <!-- SaberMod & Linaro toolchain -->
   <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="501d8e25aab57ac36c4206464572dac26a565b5e" />
-
-  <!-- Drop this for the time being as we are using Linaro to compile the kernel
-  <project name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="master" />
-  -->
   <project name="SlimSaber/toolchain_linaro-4.7" path="prebuilts/gcc/linux-x86/arm/linaro-4.7" remote="github" revision="jb4.3"/>
 
   <!-- CyanogenMod -->
@@ -415,5 +414,7 @@
 
   <!-- Custom -->
   <project path="external/libminiz" name="codefireXperiment/external_libminiz" remote="github" revision="jb-devel-mr2-release" />
+
+  <!-- ************** SLIMSABER ************** -->
 
 </manifest>

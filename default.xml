@@ -266,8 +266,6 @@
   <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="jb4.3" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="jb4.3" />
   <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" remote="github" revision="jb4.3" />
-  <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="jb4.3" />
-  <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="jb4.3" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
@@ -409,6 +407,8 @@
   <project name="SlimSaber/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="jb4.3" />
   <project name="CyanogenMod/android_system_bluetooth" path="system/bluetooth" remote="github" revision="cm-10.2"/>
   <project name="SlimSaber/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="jb4.3" />
+  <project name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" remote="github" revision="jb4.3" />
+  <project name="CyanogenMod/android_packages_apps_Exchange" path="packages/apps/Exchange" remote="github" revision="jb4.3" />
 
   <!-- Custom -->
   <project path="external/libminiz" name="codefireXperiment/external_libminiz" remote="github" revision="jb-devel-mr2-release" />

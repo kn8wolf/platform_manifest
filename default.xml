@@ -12,17 +12,17 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="kk4.4" >
+  <project path="build" name="SlimSaber/android_build" remote="github" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
+  <project path="art" name="SlimSaber/android_art" remote="github" revision="kk4.4"  />
+  <project path="bionic" name="SlimSaber/android_bionic" remote="github" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
+  <project path="bootable/recovery" name="SlimSaber/bootable_recovery" remote="github" revision="kk4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="kk4.4" />
+  <project path="dalvik" name="SlimSaber/android_dalvik" remote="github" revision="kk4.4" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -53,14 +53,14 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4" />
+  <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="kk4.4" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="SlimSaber/android_external_chromium" remote="github" revision="kk4.4" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium_org" name="SlimRoms/android_external_chromium_org" remote="github" revision="kk4.4" />
@@ -87,28 +87,28 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="SlimRoms/android_external_clang" remote="github" revision="kk4.4"  />
+  <project path="external/clang" name="SlimSaber/android_external_clang" remote="github" revision="kk4.4"  />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
+  <project path="external/dnsmasq" name="SlimSaber/android_external_dnsmasq" remote="github" revision="kk4.4" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="kk4.4"  />
+  <project path="external/e2fsprogs" name="SlimSaber/android_external_e2fsprogs" remote="github" revision="kk4.4" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/eigen" name="platform/external/eigen" />
-  <project path="external/elfutils" name="platform/external/elfutils" />
-  <project path="external/embunit" name="platform/external/embunit" />
+  <project path="external/elfutils" name="SlimSaber/android_external_elfutils" remote="github" revision="kk4.4" />
+  <project path="external/embunit" name="SlimSaber/android_external_embunit" remote="github" revision="kk4.4" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="SlimRoms/android_external_flac" remote="github" revision="kk4.4"  />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
+  <project path="external/freetype" name="SlimSaber/android_external_freetype" remote="github" revision="kk4.4" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
@@ -116,17 +116,17 @@
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
-  <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
+  <project path="external/gtest" name="SlimSaber/android_external_gtest" remote="github" revision="kk4.4" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" groups="pdk" />
-  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
+  <project path="external/iproute2" name="SlimSaber/android_external_iproute2" remote="github" revision="kk4.4" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/iputils" name="platform/external/iputils" />
+  <project path="external/iputils" name="SlimSaber/android_external_iputils" remote="github" revision="kk4.4" />
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
@@ -161,9 +161,9 @@
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
+  <project path="external/linux-tools-perf" name="SlimSaber/android_external_linux-tools-perf" remote="github" revision="kk4.4" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="SlimRoms/android_external_llvm" remote="github" revision="kk4.4" />
+  <project path="external/llvm" name="SlimSaber/android_external_llvm" remote="github" revision="kk4.4" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -187,9 +187,9 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/openssh" name="SlimSaber/android_external_openssh" remote="github" revision="kk4.4" />
+  <project path="external/openssl" name="SlimSaber/android_external_openssl" remote="github" revision="kk4.4" />
+  <project path="external/oprofile" name="SlimSaber/android_external_oprofile" remote="github" revision="kk4.4" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
@@ -204,45 +204,45 @@
   <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="github" revision="kk4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="kk4.4" />
+  <project path="external/skia" name="SlimSaber/android_external_skia" remote="github" revision="kk4.4" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
+  <project path="external/sonivox" name="SlimSaber/android_external_sonivox" remote="github" revision="kk4.4" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
-  <project path="external/srec" name="SlimRoms/android_external_srec" remote="github" revision="kk4.4" />
+  <project path="external/srec" name="SlimSaber/android_external_srec" remote="github" revision="kk4.4" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <project path="external/stlport" name="SlimSaber/android_external_stlport" remote="github" revision="kk4.4" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/tcpdump" name="SlimSaber/android_external_tcpdump" remote="github" revision="kk4.4" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" />
-  <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
+  <project path="external/v8" name="SlimSaber/android_external_v8" remote="github" revision="kk4.4" />
+  <project path="external/valgrind" name="SlimSaber/android_external_valgrind" remote="github" revision="kk4.4" />
   <project path="external/webp" name="platform/external/webp" />
-  <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="kk4.4" />
+  <project path="external/webrtc" name="SlimSaber/android_external_valgrind" remote="github" revision="kk4.4" />
+  <project path="external/wpa_supplicant_8" name="SlimSaber/android_external_wpa_supplicant_8" remote="github" revision="kk4.4" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="kk4.4" />
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="kk4.4" />
+  <project path="frameworks/av" name="SlimSaber/frameworks_av" remote="github" revision="kk4.4" />
+  <project path="frameworks/base" name="SlimSaber/frameworks_base" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/compile/slang" name="SlimSaber/android_frameworks_compile_slang" remote="github" revision="kk4.4" />
+  <project path="frameworks/ex" name="SlimSaber/android_frameworks_ex" remote="github" revision="kk4.4" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4" />
+  <project path="frameworks/native" name="SlimSaber/frameworks_native" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -251,24 +251,24 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
+  <project path="frameworks/opt/net/voip" name="SlimSaber/android_frameworks_opt_net_voip" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="SlimRoms/android_frameworks_opt_vcard" remote="github" revision="kk4.4" />
-  <project path="frameworks/rs" name="SlimRoms/frameworks_rs" remote="github" revision="kk4.4" groups="pdk" />
+  <project path="frameworks/rs" name="SlimSaber/frameworks_rs" remote="github" revision="kk4.4" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="frameworks/wilhelm" name="SlimSaber/android_frameworks_wilhelm" remote="github" revision="kk4.4" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4" />
-  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4" />
+  <project path="hardware/libhardware" name="SlimSaber/hardware_libhardware" remote="github" revision="kk4.4" />
+  <project path="hardware/libhardware_legacy" name="SlimSaber/hardware_libhardware_legacy" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
@@ -287,7 +287,7 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
-  <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
+  <project path="libcore" name="SlimSaber/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -295,7 +295,7 @@
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="github" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="kk4.4" />
-  <project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" remote="github" revision="kk4.4" />
+  <project path="packages/apps/Camera" name="SlimSaber/packages_apps_Camera" remote="github" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="kk4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
@@ -312,7 +312,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <project path="packages/apps/LegacyCamera" name="SlimSaber/packages_apps_LegacyCamera" remote="github" revision="kk4.4" />
   <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="kk4.4" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" remote="github" revision="kk4.4" />
@@ -336,8 +336,8 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="SlimRoms/packages_apps_VoiceDialer" remote="github" revision="kk4.4" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="kk4.4" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+  <project path="packages/inputmethods/LatinIME" name="SlimSaber/packages_inputmethods_LatinIME" remote="github" revision="kk4.4" />
+  <project path="packages/inputmethods/OpenWnn" name="SlimSaber/packages_inputmethods_OpenWnn" remote="github" revision="kk4.4" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="SlimRoms/packages_providers_CalendarProvider" remote="github" revision="kk4.4" />
@@ -360,12 +360,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
-  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
-  <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" />
-  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" />
@@ -376,21 +370,6 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="pdk,darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -408,8 +387,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
+  <project path="system/core" name="SlimSaber/android_system_core" remote="github" revision="kk4.4" />
+  <project path="system/extras" name="SlimSaber/android_system_extras" remote="github" revision="kk4.4" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -426,10 +405,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="kk4.4" />
+  <project path="platform_manifest" name="SlimSaber/platform_manifest" remote="github" revision="kk4.4" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
+  <project path="vendor/slim" name="SlimSaber/vendor_slim" remote="github" revision="kk4.4" />
 
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
@@ -444,9 +423,6 @@
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
 
-  <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
-
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
 
@@ -455,5 +431,13 @@
 
   <!--CyanogenMod Power Hal -->
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
+
+  <!-- ************** SLIMSABER ************** -->
+
+  <!-- SaberMod toolchain -->
+  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sm-kk-mr1" />
+  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-jb-mr2"/>
+
+  <!-- ************** SLIMSABER ************** -->
 
 </manifest>

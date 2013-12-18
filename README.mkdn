@@ -1,68 +1,37 @@
-Welcome to SlimRoms
-===================
-
-
 Getting Started
 ---------------
 
 To get started with SlimKat, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
-Please take note that we have two main line branches depending on
-which hardware base your phone is working.
-
-If you have a qcom powered device which needs CodeAuroraForum (CAF)
-trees please us the kk4.4-caf branch which pulls for the effected packages
-the correct caf version for you.
-
 To initialize your local repository using the SlimKat trees, use this command:
 
-
-for google, exynos and non qcom devices:
-
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4
+	repo init -u https://github.com/SlimSaber/platform_manifest.git -b kk4.4
 
 
-for qcom devices which are using CodeAuroraForum trees:
+Getting Source
+--------------
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4-caf
+	repo sync -c -j5
 
-
-
-Then sync up with this command:
-
-	repo sync
+5 is the number of your cpu processors + 1.
 
 
-
-Submitting Patches
+Building SlimSaber
 ------------------
 
-We're open source, and patches are always welcome!
-You can send patches by using these commands:
+	. build/envsetup.sh
+	lunch slim_i9100-userdebug
+	make -j5 bacon
 
-    cd <workspace>
-    repo start <branch> SlimRoms/<project>
-    cd <project>
-    git add -A
-    git commit -a
-    cd <workspace>
-    repo upload SlimRoms/<project>
+or
+	
+	. build.sh i9100 sync 5 clean
 
-Commit your patches in a single commit.
+Parameter 1: The device tree: i9100 | n7000
 
-Squash multiple commit using this command:
+Parameter 2: Sync or don't sync the source: sync | nosync
 
-	git rebase -i HEAD~<# of commits>
+Parameter 3: Number of threads (The number of your cpu processors + 1).
 
-If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of
-
-	git commit -a
-
-use
-
-	git commit --amend
-
-Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [SlimRoms Code Review](http://gerrit.slimroms.net)
+Parameter 4: Make a clean build: clean | [leave it empty]

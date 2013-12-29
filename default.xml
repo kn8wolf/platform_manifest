@@ -431,6 +431,9 @@
   <!--CyanogenMod Power Hal -->
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
 
+  <!-- Omnirom Performance Control -->
+  <project name="omnirom/android_packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" remote="github" revision="android-4.4" />
+
   <!-- ************** SLIMSABER ************** -->
 
   <!-- Scripts -->

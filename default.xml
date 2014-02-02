@@ -422,20 +422,14 @@
   <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
 
-  <!-- DashClock widget -->
-  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
-
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
-
-  <!-- DSPManager -->
-  <project path="packages/apps/DSPManager" name="SlimSaber/android_packages_apps_DSPManager" remote="github" revision="kk4.4" />
 
   <!--CyanogenMod Power Hal -->
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
 
-  <!-- Omnirom Performance Control -->
-  <project name="omnirom/android_packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" remote="github" revision="android-4.4" />
+  <!-- CyanogenMod qrngd -->
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
 
   <!-- ************** SLIMSABER ************** -->
 
@@ -448,8 +442,12 @@
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sm-kk-mr1" />
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-jb-mr2"/>
 
-  <!-- Omni -->
+  <!-- OmniRom -->
   <project path="packages/apps/Launcher3" name="SlimSaber/android_packages_apps_Launcher3" remote="github" revision="kk4.4" />
+  <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="github" revision="android-4.4" />
+
+  <!-- CyanogenMod -->
+  <project path="packages/apps/DSPManager" name="SlimSaber/android_packages_apps_DSPManager" remote="github" revision="kk4.4" />
 
   <!-- ************** SLIMSABER ************** -->
 

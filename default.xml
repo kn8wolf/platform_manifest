@@ -415,6 +415,9 @@
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" />
 
+  <!-- Power Hal -->
+  <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
+
   <!-- Google play services -->
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="kk4.4" />
 
@@ -424,9 +427,6 @@
 
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
-
-  <!--CyanogenMod Power Hal -->
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
 
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />

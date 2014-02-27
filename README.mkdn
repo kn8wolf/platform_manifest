@@ -35,3 +35,11 @@ Parameter 2: Sync or don't sync the source: sync | nosync
 Parameter 3: Number of threads (The number of your cpu processors + 1).
 
 Parameter 4: Make a clean build: clean | [leave it empty]
+
+
+Building SlimKernel
+------------------
+
+	. build/envsetup.sh
+	lunch slim_i9100-userdebug
+	make -j5 bootzip

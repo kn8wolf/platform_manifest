@@ -178,7 +178,7 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="SlimSaber/android_external_sonivox" remote="github" revision="jb4.3-reborn" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite"name="SlimSaber/android_external_sqlite" remote="github" revision="jb4.3-reborn" />
+  <project path="external/sqlite" name="SlimSaber/android_external_sqlite" remote="github" revision="jb4.3-reborn" />
   <project path="external/srec" name="SlimSaber/android_external_srec" remote="github" revision="jb4.3-reborn" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="SlimSaber/android_external_stlport" remote="github" revision="jb4.3-reborn" />

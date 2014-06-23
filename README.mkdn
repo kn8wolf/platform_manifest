@@ -28,7 +28,7 @@ or
 	
 	. build.sh i9100 sync 5 clean
 
-Parameter 1: The device tree: i9100 | n7000
+Parameter 1: The device tree: i9100 | n7000 | i777
 
 Parameter 2: Sync or don't sync the source: sync | nosync
 
@@ -40,6 +40,8 @@ Parameter 4: Make a clean build: clean | [leave it empty]
 Building SlimKernel
 ------------------
 
-	. build/envsetup.sh
-	lunch slim_i9100-userdebug
-	make -j5 bootzip
+	. build_kernel.sh i9100 5
+
+Parameter 1: The device tree: i9100 | n7000 | i777
+
+Parameter 2: Number of threads (The number of your cpu processors + 1).

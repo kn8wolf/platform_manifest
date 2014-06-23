@@ -448,7 +448,8 @@
 
   <!-- Scripts -->
   <project path="scripts" name="SlimSaber/scripts" remote="github" revision="kk4.4" >
-     <copyfile src="build.sh" dest="build.sh" />
+     <copyfile src="build_rom.sh" dest="build_rom.sh" />
+     <copyfile src="build_kernel.sh" dest="build_kernel.sh" />
   </project>
 
   <!-- SaberMod toolchain -->

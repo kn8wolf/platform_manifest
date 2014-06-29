@@ -26,7 +26,7 @@ Building SlimSaber
 
 or
 	
-	. build.sh i9100 sync 5 clean
+	. build_rom.sh i9100 sync 5 clean
 
 Parameter 1: The device tree: i9100 | n7000 | i777
 

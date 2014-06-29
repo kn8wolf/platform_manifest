@@ -1,0 +1,47 @@
+Getting Started
+---------------
+
+To get started with SlimKat, you'll need to get familiar with
+[Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the SlimKat trees, use this command:
+
+	repo init -u https://github.com/SlimSaber/platform_manifest.git -b jb4.3-reborn
+
+
+Getting Source
+--------------
+
+	repo sync -c -j5
+
+5 is the number of your cpu processors + 1.
+
+
+Building SlimSaber
+------------------
+
+	. build/envsetup.sh
+	lunch slim_i9100-userdebug
+	make -j5 bacon
+
+or
+	
+	. build_rom.sh i9100 sync 5 clean
+
+Parameter 1: The device tree: i9100 | p4
+
+Parameter 2: Sync or don't sync the source: sync | nosync
+
+Parameter 3: Number of threads (The number of your cpu processors + 1).
+
+Parameter 4: Make a clean build: clean | [leave it empty]
+
+
+Building SlimKernel
+------------------
+
+	. build_kernel.sh i9100 5
+
+Parameter 1: The device tree: i9100 | p4
+
+Parameter 2: Number of threads (The number of your cpu processors + 1).

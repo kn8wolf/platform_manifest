@@ -406,6 +406,9 @@
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="sm-jb-mr2" />
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="github" revision="kk4.4"/>
 
+  <!-- Google toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
+
   <!--CyanogenMod -->
   <project name="CyanogenMod/android_external_skia" path="external/skia" remote="github" revision="cm-10.2" />
 

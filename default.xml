@@ -410,7 +410,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
 
   <!--CyanogenMod -->
-  <project name="CyanogenMod/android_external_skia" path="external/skia" remote="github" revision="cm-10.2" />
+  <project name="SlimSaber/android_external_skia" path="external/skia" remote="github" revision="jb4.3-reborn" />
 
   <!-- ************** SLIMSABER ************** -->
 

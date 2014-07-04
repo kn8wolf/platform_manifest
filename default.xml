@@ -396,8 +396,10 @@
   <!-- ************** SLIMSABER ************** -->
 
   <!-- Scripts -->
-  <project path="scripts" name="SlimSaber/scripts" remote="github" revision="jb4.3-reborn" >
-     <copyfile src="build.sh" dest="build.sh" />
+  <project path="scripts" name="SlimSaber/scripts" remote="github" revision="master" >
+     <copyfile src="build_rom.sh" dest="build_rom.sh" />
+     <copyfile src="build_kernel.sh" dest="build_kernel.sh" />
+     <copyfile src="build_recovery.sh" dest="build_recovery.sh" />
   </project>
 
   <!-- SaberMod toolchain -->

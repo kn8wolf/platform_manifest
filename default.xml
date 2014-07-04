@@ -446,7 +446,7 @@
   <!-- ************** SLIMSABER ************** -->
 
   <!-- Scripts -->
-  <project path="scripts" name="SlimSaber/scripts" remote="github" revision="kk4.4" >
+  <project path="scripts" name="SlimSaber/scripts" remote="github" revision="master" >
      <copyfile src="build_rom.sh" dest="build_rom.sh" />
      <copyfile src="build_kernel.sh" dest="build_kernel.sh" />
   </project>

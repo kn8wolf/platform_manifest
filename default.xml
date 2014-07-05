@@ -287,7 +287,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="jb4.3" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="jb4.3" />
+  <project path="packages/apps/Settings" name="SlimSaber/packages_apps_Settings" remote="github" revision="jb4.3-reborn" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="SlimRoms/packages_apps_SoundRecorder" remote="github" revision="jb4.3" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -363,7 +363,7 @@
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="jb4.3" />
 
   <!-- Slim OTA -->
-  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="jb4.3" />
+  <project path="packages/apps/SlimCenter" name="SlimSaber/packages_apps_SlimCenter" remote="github" revision="jb4.3-reborn" />
 
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.2" />

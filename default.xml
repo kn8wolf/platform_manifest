@@ -18,7 +18,6 @@
   <project path="abi/cpp" name="SlimSaber/platform_abi_cpp" remote="github" revision="jb4.3-reborn" />
   <project path="bionic" name="SlimSaber/android_bionic" remote="github" revision="jb4.3-reborn" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="jb4.3" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="SlimSaber/android_dalvik" remote="github" revision="jb4.3-reborn" />
   <project path="development" name="SlimRoms/android_development" remote="github" revision="jb4.3" />
@@ -409,8 +408,11 @@
   <!-- Google toolchain -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
 
-  <!--CyanogenMod -->
+  <!-- CyanogenMod -->
   <project name="SlimSaber/android_external_skia" path="external/skia" remote="github" revision="jb4.3-reborn" />
+
+  <!-- TWRP -->
+  <project name="SlimSaber/bootable_recovery" path="bootable/recovery" remote="github" revision="kk4.4" />
 
   <!-- ************** SLIMSABER ************** -->
 

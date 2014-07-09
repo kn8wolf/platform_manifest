@@ -89,7 +89,7 @@
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
   <project path="external/clang" name="SlimSaber/android_external_clang" remote="github" revision="kk4.4"  />
-  <project path="external/compiler-rt" name="SlimSaber/android_external_compiler-rt" revision="kk4.4" />
+  <project path="external/compiler-rt" name="SlimSaber/android_external_compiler-rt" remote="github" revision="kk4.4" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="SlimSaber/android_external_dnsmasq" remote="github" revision="kk4.4" />

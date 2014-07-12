@@ -407,8 +407,8 @@
   <!-- CyanogenMod -->
   <project name="SlimSaber/android_external_skia" path="external/skia" remote="github" revision="jb4.3-reborn" />
 
-  <!-- TWRP -->
-  <project name="SlimSaber/bootable_recovery" path="bootable/recovery" remote="github" revision="kk4.4" />
+  <!-- Omnirom -->
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-4.4" />
 
   <!-- ************** SLIMSABER ************** -->
 

@@ -18,6 +18,7 @@
   <project path="abi/cpp" name="SlimSaber/platform_abi_cpp" remote="github" revision="kk4.4" />
   <project path="art" name="SlimSaber/android_art" remote="github" revision="kk4.4"  />
   <project path="bionic" name="SlimSaber/android_bionic" remote="github" revision="kk4.4" />
+  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="cts" name="platform/cts" groups="cts" />
@@ -457,7 +458,6 @@
   <!-- OmniRom -->
   <project path="packages/apps/Launcher3" name="SlimSaber/android_packages_apps_Launcher3" remote="github" revision="kk4.4" />
   <project path="packages/apps/PerformanceControl" name="SlimSaber/android_packages_apps_PerformanceControl" remote="github" revision="kk4.4" />
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-4.4" />
 
   <!-- CyanogenMod -->
   <project path="packages/apps/DSPManager" name="SlimSaber/android_packages_apps_DSPManager" remote="github" revision="kk4.4" />

@@ -342,7 +342,6 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="jb4.3" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="jb4.3" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -406,6 +405,10 @@
 
   <!-- CyanogenMod -->
   <project name="SlimSaber/android_external_skia" path="external/skia" remote="github" revision="jb4.3-reborn" />
+  <project name="CyanogenMod/android_system_vold" path="system/vold" remote="github" revision="cm-10.2" />
+  <project name="SlimSaber/android_external_exfat" path="external/exfat" remote="github" revision="jb4.3-reborn" />
+  <project name="SlimSaber/android_external_fuse" path="external/fuse" remote="github" revision="jb4.3-reborn" />
+  <project name="CyanogenMod/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-10.2" />
 
   <!-- TWRP -->
   <project name="SlimRoms/bootable_recovery" path="bootable/recovery" remote="github" revision="kk4.4" />

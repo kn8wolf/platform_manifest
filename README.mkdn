@@ -6,7 +6,7 @@ To get started with SlimKat, you'll need to get familiar with
 
 To initialize your local repository using the SlimKat trees, use this command:
 
-	repo init -u https://github.com/SlimSaber/platform_manifest.git -b kk4.4
+	repo init -u https://github.com/SlimSaber/platform_manifest.git -b kk4.4-caf
 
 
 Getting Source

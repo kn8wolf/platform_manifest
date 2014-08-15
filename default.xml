@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimSaber/android_build" remote="github" revision="kk4.4" >
+  <project path="build" name="SlimSaber/android_build" remote="github" revision="kk4.4-caf" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="SlimSaber/platform_abi_cpp" remote="github" revision="kk4.4" />

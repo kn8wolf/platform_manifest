@@ -276,9 +276,9 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="SlimSaber/hardware_libhardware" remote="github" revision="kk4.4" />
   <project path="hardware/libhardware_legacy" name="SlimSaber/hardware_libhardware_legacy" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/audio" name="SlimSaber/hardware_qcom_audio" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/camera" name="SlimSaber/hardware_qcom_camera" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />

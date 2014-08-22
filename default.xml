@@ -460,6 +460,7 @@
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-11.0" />
   <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-11.0" />
   <project path="hardware/ril" name="SlimSaber/hardware_ril" remote="github" revision="kk4.4" />
+  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" revision="cm-11.0" />
 
   <!-- ************** SLIMSABER ************** -->
 

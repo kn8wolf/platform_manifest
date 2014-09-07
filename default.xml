@@ -455,7 +455,7 @@
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="kk4.4"/>
 
   <!-- OmniRom -->
-  <project path="packages/apps/PerformanceControl" name="SlimSaber/android_packages_apps_PerformanceControl" remote="github" revision="kk4.4" />
+  <project path="packages/apps/PerformanceControl" name="SlimSaber/android_packages_apps_PerformanceControl" remote="github" revision="kk4.4-caf" />
   <project path="frameworks/webview" name="omnirom/android_frameworks_webview" remote="github" revision="android-4.4" />
 
   <!-- CyanogenMod -->

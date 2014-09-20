@@ -53,7 +53,6 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="kk4.4" />
@@ -298,7 +297,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="SlimSaber/packages_apps_Bluetooth" remote="github" revision="kk4.4" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="kk4.4" />
   <project path="packages/apps/Camera" name="SlimSaber/packages_apps_Camera" remote="github" revision="kk4.4" />
@@ -463,6 +461,9 @@
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-11.0" />
   <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-11.0" />
   <project path="hardware/ril" name="SlimSaber/hardware_ril" remote="github" revision="kk4.4" />
+  <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Bluetooth" name="SlimSaber/packages_apps_Bluetooth" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-11.0" />
 
   <!-- ************** SLIMSABER ************** -->
 

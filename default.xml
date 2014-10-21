@@ -56,6 +56,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
+ <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="kk4.4-caf" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="kk4.4" />
@@ -278,6 +279,7 @@
   <project path="hardware/libhardware" name="SlimSaber/hardware_libhardware" remote="github" revision="kk4.4-caf" />
   <project path="hardware/libhardware_legacy" name="SlimSaber/hardware_libhardware_legacy" remote="github" revision="kk4.4-caf" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/bt" name="SlimSaber/hardware_qcom_bt" remote="github" revision="kk4.4-caf" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="kk4.4" />
@@ -298,6 +300,8 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="SlimSaber/packages_apps_Bluetooth" remote="github" revision="kk4.4-caf" />
+  <project path="packages/apps/BluetoothExt" name="SlimSaber/packages_apps_BluetoothExt" remote="github" revision="kk4.4-caf" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="kk4.4" />
   <project path="packages/apps/Camera" name="SlimSaber/packages_apps_Camera" remote="github" revision="kk4.4" />
@@ -459,13 +463,9 @@
   <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-11.0" />
   <project path="hardware/ril" name="SlimSaber/hardware_ril" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" revision="cm-11.0" />
-  <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Bluetooth" name="SlimSaber/packages_apps_Bluetooth" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-11.0" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-11.0" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-11.0" />
   <project path="external/wpa_supplicant_8" name="Cyanogenmod/android_external_wpa_supplicant_8" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-11.0" />
 
   <!-- ************** SLIMSABER ************** -->
 

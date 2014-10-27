@@ -301,7 +301,6 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="SlimSaber/packages_apps_Bluetooth" remote="github" revision="kk4.4" />
-  <project path="packages/apps/BluetoothExt" name="SlimSaber/packages_apps_BluetoothExt" remote="github" revision="kk4.4" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="kk4.4" />
   <project path="packages/apps/Camera" name="SlimSaber/packages_apps_Camera" remote="github" revision="kk4.4" />

@@ -475,6 +475,9 @@
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-11.0" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-11.0" />
 
+  <!-- Chameleon OS -->
+  <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
+
   <!-- ************** SLIMSABER ************** -->
 
 </manifest>

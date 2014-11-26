@@ -498,7 +498,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-<project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="lp5.0-caf" />
+  <project path="platform_manifest" name="SlimSaber/platform_manifest" remote="github" revision="lp5.0-caf" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="lp5.0" />

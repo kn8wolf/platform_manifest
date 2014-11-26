@@ -473,7 +473,7 @@
   <project path="platform_manifest" name="SlimSaber/platform_manifest" remote="github" revision="lp5.0-caf" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="lp5.0" />
+  <project path="vendor/slim" name="SlimSaber/vendor_slim" remote="github" revision="lp5.0" />
 
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="lp5.0" />

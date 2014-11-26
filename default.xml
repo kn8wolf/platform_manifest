@@ -509,5 +509,15 @@
   <!-- CyanogenMod ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="lp5.0" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="lp5.0" />
+  
+  <!-- ************** SLIMSABER ************** -->
+
+  <!-- Scripts -->
+  <project path="scripts" name="SlimSaber/scripts" remote="github" revision="master" >
+     <copyfile src="build_rom.sh" dest="build_rom.sh" />
+     <copyfile src="build_kernel.sh" dest="build_kernel.sh" />
+  </project>
+  
+  <!-- ************** SLIMSABER ************** -->
 
 </manifest>

@@ -521,7 +521,7 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.0" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.0" />
 
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="github" revision="cm-12.0" />
+  <project path="system/qcom" name="SlimSaber/android_system_qcom" remote="github" revision="lp5.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-12.0" />
 
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" />

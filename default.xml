@@ -323,10 +323,6 @@
   <project path="hardware/libhardware_legacy" name="SlimSaber/hardware_libhardware_legacy" remote="github" revision="lp5.0-caf" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="lp5.0-caf" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="lp5.0" />
-  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="lp5.0" />
-  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="lp5.0-caf" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
@@ -518,6 +514,10 @@
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.0" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.0" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.0" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-12.0" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-12.0" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-12.0" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-12.0" />
 
   <project path="system/qcom" name="SlimSaber/android_system_qcom" remote="github" revision="lp5.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-12.0" />

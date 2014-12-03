@@ -433,7 +433,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="SlimSaber/android_system_core" remote="github" revision="lp5.0-caf" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="lp5.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="SlimSaber/android_system_vold" remote="github" revision="lp5.0-caf" />
@@ -529,6 +528,7 @@
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-12.0" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-12.0" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-12.0" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-12.0" />
 
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="github" revision="cm-12.0" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-12.0" />

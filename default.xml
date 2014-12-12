@@ -502,9 +502,6 @@
 
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-12.0" />
 
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.0" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.0" />
-
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.0" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.0" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.0" />
@@ -521,6 +518,13 @@
 
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-12.0" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" revision="cm-12.0" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.0" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.0" />
+  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" remote="github" revision="cm-12.0" />
+  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
+  <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-12.0" />
 
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.0" />
   <project path="external/fuse" name="SlimSaber/android_external_fuse" remote="github" revision="lp5.0" />
@@ -534,12 +538,6 @@
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
 
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" revision="cm-12.0" />
-
-  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
-  <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-12.0" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" remote="github" revision="cm-12.0" />
-  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" remote="github" revision="cm-12.0" />
 
   <!-- ************** SLIMSABER ************** -->
 

@@ -313,8 +313,6 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="SlimSaber/hardware_libhardware" remote="github" revision="lp5.0-caf" />
-  <project path="hardware/libhardware_legacy" name="SlimSaber/hardware_libhardware_legacy" remote="github" revision="lp5.0-caf" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="lp5.0" />
@@ -498,6 +496,9 @@
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-12.0" />
 
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-12.0" />
+
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-12.0" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-12.0" />
 
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.0" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.0" />

@@ -341,7 +341,6 @@
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="lp5.0" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="lp5.0" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="lp5.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="SlimSaber/packages_apps_InCallUI" remote="github" revision="lp5.0-caf" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
@@ -539,6 +538,7 @@
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" revision="cm-12.0" />
 
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-12.0" />
 
   <!-- ************** SLIMSABER ************** -->
 

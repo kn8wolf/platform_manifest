@@ -493,6 +493,9 @@
   <!-- SlimOTA -->
   <project name="SlimSaber/packages_apps_SlimOTA" path="packages/apps/SlimOTA" remote="github" revision="master" />
 
+  <!-- ChameleonOS -->
+  <project path="packages/apps/ScreenRecorder" name="SlimSaber/packages_apps_ScreenRecorder" remote="github" revision="lp5.0" />
+
   <!-- CyanogenMod -->
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.1" />

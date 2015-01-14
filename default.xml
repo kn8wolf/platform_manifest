@@ -288,7 +288,6 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="SlimSaber/android_frameworks_wilhelm" remote="github" revision="lp5.0" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="lp5.0-caf" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="lp5.0" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -307,7 +306,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="lp5.0" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
@@ -483,6 +481,7 @@
   <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="lp5.0-caf" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="github" revision="cm-12.0" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-12.0" />
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-12.0" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="cm-12.0" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-12.0" />
 

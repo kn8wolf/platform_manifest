@@ -288,6 +288,7 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="SlimSaber/android_frameworks_wilhelm" remote="github" revision="lp5.0" />
   <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="lp5.0-caf" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="lp5.0" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -479,9 +480,8 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril-caf" remote="github" revision="cm-12.0" />
 
   <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="lp5.0-caf" />
-  <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="github" revision="cm-12.0" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-12.0" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-12.0" />
+  <project path="frameworks/opt/bluetooth" name="SlimSaber/android_frameworks_opt_bluetooth" remote="github" revision="lp5.0-caf" />
+  <project path="hardware/qcom/bt" name="SlimSaber/hardware_qcom_bt" remote="github" revision="lp5.0-caf" />
   <project path="packages/apps/Bluetooth" name="SlimSaber/packages_apps_Bluetooth" remote="github" revision="lp5.0-caf" />
   <project path="packages/apps/BluetoothExt" name="SlimSaber/packages_apps_BluetoothExt" remote="github" revision="lp5.0-caf" />
 

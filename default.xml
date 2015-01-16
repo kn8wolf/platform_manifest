@@ -173,7 +173,6 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs" />
@@ -215,7 +214,6 @@
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
-  <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
   <project path="external/pdfium" name="SlimSaber/android_external_pdfium" remote="github" revision="lp5.0" />
   <project path="external/pixman" name="platform/external/pixman" groups="pdk-cw-fs" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" />
@@ -517,6 +515,8 @@
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-12.0" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-12.0" />
 
+  <project path="external/pcre" name="CyanogenMod/android_external_pcre" remote="github" revision="cm-12.0" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" remote="github" revision="cm-12.0" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="github" revision="cm-12.0" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-12.0" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />

@@ -475,7 +475,7 @@
   <project path="hardware/libhardware" name="SlimSaber/hardware_libhardware" remote="github" revision="lp5.0-caf" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-12.0" />
 
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril-caf" remote="github" revision="cm-12.0" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-12.0-caf" />
 
   <project path="external/bluetooth/bluedroid" name="SlimSaber/android_external_bluetooth_bluedroid" remote="github" revision="lp5.0-caf" />
   <project path="frameworks/opt/bluetooth" name="SlimSaber/android_frameworks_opt_bluetooth" remote="github" revision="lp5.0-caf" />

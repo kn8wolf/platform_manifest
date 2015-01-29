@@ -270,7 +270,6 @@
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
@@ -537,6 +536,7 @@
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" remote="github" revision="cm-12.0" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" remote="github" revision="cm-12.0" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" remote="github" revision="cm-12.0" />
+  <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" remote="github" revision="cm-12.0" />
 
   <!-- Phone -->
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />

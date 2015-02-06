@@ -105,7 +105,6 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="SlimSaber/android_external_dnsmasq" remote="github" revision="lp5.0" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
@@ -138,7 +137,6 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/icu" name="SlimRoms/android_external_icu" remote="github" revision="lp5.0" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
-  <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
   <project path="external/iputils" name="SlimSaber/android_external_iputils" remote="github" revision="lp5.0" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
@@ -495,6 +493,8 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-12.0" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" remote="github" revision="cm-12.0" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="github" revision="cm-12.0" />
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="cm-12.0" />
+  <project path="external/iptables" name="CyanogenMod/android_external_iptables" remote="github" revision="cm-12.0" />
 
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-12.0" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-12.0" />

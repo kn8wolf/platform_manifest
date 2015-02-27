@@ -490,7 +490,7 @@
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="cm-12.0" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" remote="github" revision="cm-12.0" />
 
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-12.0" />
+  <project path="frameworks/av" name="SlimSaber/frameworks_av" remote="github" revision="lp5.0-caf" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-12.0" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" revision="cm-12.0" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.0" />

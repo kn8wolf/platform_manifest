@@ -525,7 +525,7 @@
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="github" revision="cm-12.0" />
 
   <!-- MMS -->
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Mms" name="SlimSaber/packages_apps_Mms" remote="github" revision="lp5.0-caf" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" remote="github" revision="cm-12.0" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" remote="github" revision="cm-12.0" />
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" remote="github" revision="cm-12.0" />

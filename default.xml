@@ -169,7 +169,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
@@ -510,6 +509,8 @@
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="github" revision="cm-12.0" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-12.0" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
+
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" revision="cm-12.0" />
 
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" revision="cm-12.0" />
 

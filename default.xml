@@ -433,9 +433,9 @@
      <copyfile src="build_kernel.sh" dest="build_kernel.sh" />
   </project>
   
-  <!-- SaberMod toolchain -->
-  <project name="fusionjack/sabermod_arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
-  <project name="fusionjack/sabermod_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master"/>
+  <!-- Uber toolchain -->
+  <project name="fusionjack/uber_arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
+  <project name="fusionjack/uber_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master"/>
 
   <!-- ChameleonOS -->
   <project path="packages/apps/ScreenRecorder" name="SlimSaber/packages_apps_ScreenRecorder" remote="github" revision="lp5.0" />

@@ -472,7 +472,7 @@
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-12.0" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-12.0" />
 
-  <project path="system/qcom" name="SlimSaber/android_system_qcom" remote="github" revision="lp5.0" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="github" revision="cm-12.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-12.0" />
 
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" />

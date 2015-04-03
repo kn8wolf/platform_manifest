@@ -273,7 +273,6 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="SlimSaber/android_frameworks_wilhelm" remote="github" revision="lp5.0" />
@@ -436,6 +435,11 @@
   <!-- Uber toolchain -->
   <project name="fusionjack/uber_arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
   <project name="fusionjack/uber_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master"/>
+
+  <!-- Kernel Adiutor -->
+  <project name="SlimSaber/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.0" />
+  <project name="SlimSaber/android-floating-action-button" path="packages/apps/FloatingActionButton" remote="github" revision="lp5.0" />
+  <project path="frameworks/support" name="SlimSaber/platform_frameworks_support" remote="github" revision="lp5.0" />
 
   <!-- ChameleonOS -->
   <project path="packages/apps/ScreenRecorder" name="SlimSaber/packages_apps_ScreenRecorder" remote="github" revision="lp5.0" />

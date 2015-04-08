@@ -433,8 +433,8 @@
   </project>
   
   <!-- Uber toolchain -->
-  <project name="fusionjack/uber_arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
-  <project name="fusionjack/uber_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master"/>
+  <project name="fusionjack/uber_arm-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
+  <project name="fusionjack/uber_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master"/>
 
   <!-- Kernel Adiutor -->
   <project name="SlimSaber/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.0" />

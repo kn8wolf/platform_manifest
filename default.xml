@@ -406,7 +406,7 @@
   <project path="vendor/slim" name="SlimSaber/vendor_slim" remote="github" revision="lp5.0" />
 
   <!-- Slim OTA -->
-  <project path="packages/apps/SlimCenter" name="SlimSaber/packages_apps_SlimCenter" remote="github" revision="lp5.0" />
+  <project path="packages/apps/SlimOTA" name="SlimSaber/packages_apps_SlimOTA" remote="github" revision="lp5.0" />
 
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.0" />

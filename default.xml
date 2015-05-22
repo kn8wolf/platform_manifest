@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="aosp"
+  <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+
+  <remote name="bitbucket"
+          fetch="https://bitbucket.org/"/>
 
   <remote  name="github"
            fetch="git://github.com/"
@@ -11,11 +14,11 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="lp5.1" >
+  <project path="build" name="SlimSaber/android_build" remote="github" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="lp5.1"  />
+  <project path="art" name="SlimSaber/android_art" remote="github" revision="lp5.1"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="lp5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="lp5.1" />
@@ -68,15 +71,15 @@
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="lp5.1" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
+  <project path="external/checkpolicy" name="SlimSaber/android_external_checkpolicy" remote="github" revision="lp5.1" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
+  <project name="CyanogenMod/android_external_chromium_org" path="external/chromium_org" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
-  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" />
+  <project name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" path="external/chromium_org/third_party/boringssl/src" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" />
@@ -102,7 +105,7 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
+  <project name="CyanogenMod/android_external_chromium_org_v8" path="external/chromium_org/v8" remote="github" revision="cm-12.1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -282,7 +285,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="lp5.1" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="lp5.1" />
+  <project path="frameworks/base" name="SlimSaber/frameworks_base" remote="github" revision="lp5.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -418,7 +421,7 @@
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="lp5.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="lp5.1" />
+  <project path="packages/apps/Settings" name="SlimSaber/packages_apps_Settings" remote="github" revision="lp5.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -533,13 +536,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="lp5.1" />
+  <project path="platform_manifest" name="SlimSaber/platform_manifest" remote="github" revision="lp5.1" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="lp5.1" />
-
-  <!-- Slim file manager -->
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.1" />
+  <project path="vendor/slim" name="SlimSaber/vendor_slim" remote="github" revision="lp5.1" />
 
   <!-- SlimLauncher -->
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.1" />
@@ -547,14 +547,8 @@
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="lp5.1" />
 
-  <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="lp5.1" />
-
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="lp5.1" />
-
-  <!-- Google play services -->
-  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
 
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="lp5.1" />
@@ -565,5 +559,34 @@
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="lp5.1" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="lp5.1" />
+
+  <!-- ************** SLIMSABER ************** -->
+
+  <!-- Scripts -->
+  <project path="scripts" name="SlimSaber/scripts" remote="github" revision="master" >
+     <copyfile src="build_rom.sh" dest="build_rom.sh" />
+     <copyfile src="build_kernel.sh" dest="build_kernel.sh" />
+  </project>
+
+  <!-- Uber toolchain -->
+  <project name="fusionjack/uber_arm-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
+  <project name="fusionjack/uber_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="master" />
+
+  <!-- Kernel Adiutor -->
+  <project name="SlimSaber/KernelAdiutor" path="packages/apps/KernelAdiutor" remote="github" revision="lp5.0" />
+  <project name="SlimSaber/android-floating-action-button" path="packages/apps/FloatingActionButton" remote="github" revision="lp5.0" />
+
+  <!-- SlimOTA -->
+  <project name="SlimSaber/packages_apps_SlimOTA" path="packages/apps/SlimOTA" remote="github" revision="lp5.0" />
+
+  <!-- CyanogenMod -->
+  <project name="CyanogenMod/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_external_google" path="external/google" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_external_libphonenumbergoogle" path="external/libphonenumbergoogle" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_frameworks_opt_hardware" path="frameworks/opt/hardware" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="github" revision="cm-12.1" />
+
+  <!-- ************** SLIMSABER ************** -->
 
 </manifest>

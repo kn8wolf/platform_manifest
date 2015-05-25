@@ -107,7 +107,6 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" groups="pdk" remote="github" revision="lp5.1" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
@@ -115,16 +114,13 @@
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" />
-  <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="lp5.1" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
-  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="lp5.1" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
-  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="lp5.1" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
@@ -213,7 +209,6 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
-  <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" remote="github" revision="lp5.1" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" />
@@ -448,7 +443,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="lp5.1" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="lp5.1" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="lp5.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -538,6 +532,13 @@
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="cm-12.1" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-12.1" />
+
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.1" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-12.1" />
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-12.1" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-12.1" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-12.1" />
 
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.1" />
   <project path="external/pcre" name="CyanogenMod/android_external_pcre" remote="github" revision="cm-12.1" />

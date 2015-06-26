@@ -28,7 +28,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="SlimRoms/android_development" remote="github" revision="lp5.1" />
+  <project path="development" name="SlimSaber/android_development" remote="github" revision="lp5.1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -482,13 +482,13 @@
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-12.1" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-12.1" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" remote="github" revision="cm-12.1" />
-  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="github" revision="cm-12.1" />
+  <project path="external/dhcpcd" name="SlimSaber/android_external_dhcpcd" remote="github" revision="lp5.1" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="cm-12.1" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" remote="github" revision="cm-12.1" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-12.1" />
 
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-12.1" />
-  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" revision="cm-12.1" />
+  <project path="external/flac" name="SlimSaber/android_external_flac" remote="github" revision="lp5.1" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.1" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" remote="github" revision="cm-12.1" />

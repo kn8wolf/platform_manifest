@@ -455,7 +455,7 @@
   <project name="SlimSaber/packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="github" revision="lp5.1" />
 
   <!-- ChameleonOS -->
-  <project path="packages/apps/ScreenRecorder" name="SlimSaber/packages_apps_ScreenRecorder" remote="github" revision="lp5.0" />
+  <project path="packages/apps/ScreenRecorder" name="SlimSaber/packages_apps_ScreenRecorder" remote="github" revision="lp5.1" />
 
   <!-- CyanogenMod -->
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-12.1" />

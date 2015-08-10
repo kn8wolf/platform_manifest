@@ -161,7 +161,6 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="SlimRoms/android_external_libsepol" remote="github" revision="kk4.4" />
@@ -478,6 +477,7 @@
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-11.0" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-11.0" />
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" remote="github" revision="cm-11.0" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" revision="cm-11.0" />
 
   <!-- Chameleon OS -->
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />

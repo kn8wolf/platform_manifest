@@ -597,6 +597,9 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-12.1" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-12.1-caf" />
 
+  <!-- CM SDK -->
+  <project path="vendor/cmsdk" name="SlimSaber/cm_platform_sdk" remote="github" revision="lp5.1" />
+
   <!-- ************** SLIMSABER ************** -->
 
 </manifest>

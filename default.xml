@@ -312,7 +312,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="lp5.1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/DeskClock" name="SlimSaber/packages_apps_DeskClock" remote="github" revision="lp5.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
@@ -548,6 +547,9 @@
 
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="github" revision="cm-12.1" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.1" />
+
+  <!-- DeskClock -->
+  <project path="packages/apps/DeskClock" name="SlimSaber/packages_apps_DeskClock" remote="github" revision="cm-12.1" />
 
   <!-- Email -->
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="cm-12.1" />

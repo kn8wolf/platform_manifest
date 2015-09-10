@@ -601,6 +601,7 @@
 
   <!-- CM SDK -->
   <project path="vendor/cmsdk" name="SlimSaber/cm_platform_sdk" remote="github" revision="lp5.1" />
+  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="github" revision="cm-12.1" />
 
   <!-- ************** SLIMSABER ************** -->
 

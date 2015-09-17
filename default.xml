@@ -604,7 +604,8 @@
   <project path="packages/apps/Settings" remote="github" name="kn8wolf/packages_apps_Settings" revision="lp5.1" />
   <project path="vendor/slim" remote="github" name="kn8wolf/vendor_slim" revision="lp5.1" />
   <project path="scripts" remote="github" name="kn8wolf/scripts" revision="master" />
-
+  <project path="patcher" remote="github" name="kn8wolf/patcher" revision="stable/cm-12.1-bacon" />
+ 
   <project path="packages/apps/ViPER4Android" remote="github" name="kantjer/viper4android_fx" revision="master" />
 
   <!--Repositories to remove-->

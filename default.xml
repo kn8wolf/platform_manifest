@@ -609,6 +609,7 @@
   <project path="packages/apps/ViPER4Android" remote="github" name="kantjer/viper4android_fx" revision="master" />
 
   <!--Repositories to remove-->
+  <remove-project name="kn8wolf/patcher" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />

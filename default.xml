@@ -577,6 +577,8 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_net_ims" />
+  <remove-project name="SlimSaber/frameworks_opt_net_wifi" />
   <remove-project name="SlimSaber/frameworks_base" />
   <remove-project name="SlimSaber/packages_apps_Settings" />
   <remove-project name="SlimSaber/vendor_slim" />
@@ -606,6 +608,9 @@
   <project path="scripts" remote="github" name="kn8wolf/scripts" revision="master" />
   <project path="patcher" remote="github" name="kn8wolf/patcher" revision="stable/cm-12.1-bacon" />
  
+  <project path="frameworks/opt/net/ims" name="SlimSaber/android_frameworks_opt_net_ims" remote="github" revision="cm-12.1" />
+  <project path="frameworks/opt/net/wifi" name="kn8wolf/frameworks_opt_net_wifi" remote="github" revision="lp5.1" />
+
   <project path="packages/apps/ViPER4Android" remote="github" name="kantjer/viper4android_fx" revision="master" />
 
   <!--Repositories to remove-->
